@@ -47,21 +47,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Iga7UEiE3MuvoV6auvfclv71+hY=15/05/2021 12:47:3515/05/2021 12:47:34</TimeStamp>
+        <TimeStamp>MJybWL4mYsTIurK8fGu0k9BVKj4=05/06/2021 19:33:5215/05/2021 12:47:34</TimeStamp>
         <ID>
           <String>Customers</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>CQ4GswRCg5bpk25DvLGB2fcg7GQ=15/05/2021 12:47:3515/05/2021 12:47:35</TimeStamp>
-        <ID>
-          <String>Dates</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>45pN2WCXtkIGQ4JX6I3GCPZP8XU=15/05/2021 12:47:3515/05/2021 12:47:35</TimeStamp>
+        <TimeStamp>xw67SDLXEsPUdE24mLj+02MR9t4=05/06/2021 21:56:4215/05/2021 12:47:35</TimeStamp>
         <ID>
           <String>Products</String>
         </ID>
@@ -74,8 +67,15 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>h68GIo0Rq1gmScZR+JncCxykBJc=05/06/2021 19:34:1715/05/2021 12:47:35</TimeStamp>
+        <ID>
+          <String>Dates</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>9wCj2fKjCnzNXkzMirKZ5izyGXI=15/05/2021 12:51:1715/05/2021 12:51:11PZdynzX0sXFfsJ2B1TerMYWHqas=15/05/2021 12:51:1115/05/2021 12:51:11</TimeStamp>
+        <TimeStamp>YtxNQRL634F7RbXA7hN8XQzJY1E=05/06/2021 21:56:4215/05/2021 12:51:11PZdynzX0sXFfsJ2B1TerMYWHqas=15/05/2021 12:51:1115/05/2021 12:51:11</TimeStamp>
         <ID>
           <String>LIGHTADVENTUREWORKSDW</String>
         </ID>
@@ -83,7 +83,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>fm9oqhB6WJeHQZLNv2nCo0sjkvw=25/04/2021 19:21:3325/04/2021 19:21:23</TimeStamp>
+      <TimeStamp>o1lw9vqdjMf4xQgeO5G0WmDDwNk=30/05/2021 23:00:2825/04/2021 19:21:23</TimeStamp>
       <ID>
         <String>ProjetDW</String>
       </ID>
@@ -92,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>false</ProcessingComplete>
-  <LastDeployed>2021-05-15T12:51:44.07Z</LastDeployed>
+  <LastDeployed>2021-06-05T20:57:07.906667Z</LastDeployed>
 </DeploymentSnapshot>
