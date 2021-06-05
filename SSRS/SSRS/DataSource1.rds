@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DataSource1">
-  <ConnectionProperties>
-    <Extension>OLEDB</Extension>
-    <ConnectString>Provider=SQLOLEDB.1;Data Source=FATIMA-EZZAHRA;Initial Catalog=LIGHTADVENTUREWORKSDW</ConnectString>
-    <IntegratedSecurity>true</IntegratedSecurity>
-  </ConnectionProperties>
-  <DataSourceID>2d0490ef-851b-4206-ad9d-6e4c63c990a0</DataSourceID>
-</RptDataSource>
