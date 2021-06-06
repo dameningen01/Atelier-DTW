@@ -23,13 +23,13 @@
         <ID>Customers</ID>
       </Dimension>
       <Dimension>
-        <ID>Products</ID>
-      </Dimension>
-      <Dimension>
         <ID>Internet Sales</ID>
       </Dimension>
       <Dimension>
         <ID>Dates</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Products</ID>
       </Dimension>
     </Dimensions>
     <Cubes>

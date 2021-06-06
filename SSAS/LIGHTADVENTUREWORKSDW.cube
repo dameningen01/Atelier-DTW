@@ -185,21 +185,18 @@
       <Name>Products</Name>
       <DimensionID>Products</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="976edeee-e557-49ad-b541-53b2e14ca309">
-          <AttributeID>Product Name</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="8c45f39c-882a-4f89-a35d-5d1fa182f3f2">
-          <AttributeID>Subcategory Name</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="d839da05-6342-4e2a-ae08-7a2685de8da7">
-          <AttributeID>Category Name</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="2329bd26-ef1c-4e26-95ed-16c347d54599">
           <AttributeID>Product Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="b5b22940-7a74-4982-a4e9-7a4da9e69150">
+          <AttributeID>Subcategory Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cd853e01-212a-457b-88c6-d118d3d4f7c2">
+          <AttributeID>Category Name</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="9d351c11-442b-4e65-9c55-658fe3b6d5a0">
+        <Hierarchy dwd:design-time-name="bf415fba-a44b-4969-8255-fc9d86d0ec22">
           <HierarchyID>Hiérarchie</HierarchyID>
         </Hierarchy>
       </Hierarchies>
@@ -324,9 +321,6 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4c8e9f6e-dd27-4bd0-8ee4-01685a373541">
-          <CubeDimensionID>Products</CubeDimensionID>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="517f4aa0-0c14-4ecb-beb2-b242600e158e">
           <CubeDimensionID>Customers</CubeDimensionID>
           <Attributes>
@@ -345,7 +339,26 @@
             </Attribute>
           </Attributes>
         </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6f61fee1-0d9d-4106-beaf-e5fe69b2a37b">
+          <CubeDimensionID>Products</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e62c8da4-7d8a-462e-9287-ae53e0eb7471">
+              <AttributeID>Product Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e75b5ffc-5938-4840-8a40-ca50c938f84c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2d9bd51a-57b7-404f-9291-e8b8bd6fa6e7">
+                    <TableID>dbo_InternetSales</TableID>
+                    <ColumnID>ProductKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
   </MeasureGroups>
   <Source dwd:design-time-name="dbddb150-0a1b-41c6-8ac7-320aefa9ff84">

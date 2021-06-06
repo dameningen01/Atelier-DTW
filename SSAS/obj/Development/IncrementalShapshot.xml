@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -54,13 +54,6 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>xw67SDLXEsPUdE24mLj+02MR9t4=05/06/2021 21:56:4215/05/2021 12:47:35</TimeStamp>
-        <ID>
-          <String>Products</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
         <TimeStamp>KVIs0YzZMRgyjtS2I/vo234Z5vA=15/05/2021 12:47:3515/05/2021 12:47:35</TimeStamp>
         <ID>
           <String>Internet Sales</String>
@@ -74,8 +67,15 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Oux22ED2Hu7rorRL1SCvfPynNI8=06/06/2021 01:20:5115/05/2021 12:47:35</TimeStamp>
+        <ID>
+          <String>Products</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>YtxNQRL634F7RbXA7hN8XQzJY1E=05/06/2021 21:56:4215/05/2021 12:51:11PZdynzX0sXFfsJ2B1TerMYWHqas=15/05/2021 12:51:1115/05/2021 12:51:11</TimeStamp>
+        <TimeStamp>HAYNdrgPS49nO8kiMsWdRaMqIIs=06/06/2021 01:20:1315/05/2021 12:51:11PZdynzX0sXFfsJ2B1TerMYWHqas=15/05/2021 12:51:1115/05/2021 12:51:11</TimeStamp>
         <ID>
           <String>LIGHTADVENTUREWORKSDW</String>
         </ID>
@@ -91,6 +91,6 @@
     <Granularity>Coarse</Granularity>
   </Snapshot>
   <AssemblyLocations />
-  <ProcessingComplete>false</ProcessingComplete>
-  <LastDeployed>2021-06-05T20:57:07.906667Z</LastDeployed>
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-06-06T00:23:34.85Z</LastDeployed>
 </DeploymentSnapshot>
